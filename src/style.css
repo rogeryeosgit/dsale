@@ -22,6 +22,27 @@ body {
     margin-bottom: 50px;
     line-height: 1.5;
   }
+
+  .wrapper {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -50px; 
+  }
+  
+  .wrapper:after {
+    content: "";
+    display: block;
+  }
+  
+  footer, .wrapper:after {
+    /* height of the footer */
+    height: 50px; 
+  }
+  
+  footer {
+    padding: 15px;
+    text-align: center;
+  }
   
   a.contactus {
     display: inline-block;
@@ -54,24 +75,5 @@ body {
     src: url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD-w.ttf') format('truetype');
   }
 
-  .wrapper {
-    min-height: 100%;
-    /* equal to footer height */
-    margin-bottom: -50px; 
-  }
-  
-  .wrapper:after {
-    content: "";
-    display: block;
-  }
-  
-  footer, .wrapper:after {
-    /* height of the footer */
-    height: 50px; 
-  }
-  
-  footer {
-    padding: 15px;
-    text-align: center;
-  }
+
   
