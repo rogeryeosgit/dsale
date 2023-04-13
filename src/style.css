@@ -18,7 +18,7 @@ body {
     line-height: 1.5;
   }
   
-  a {
+  .contactus {
     display: inline-block;
     padding: 15px 30px;
     border-radius: 50px;
